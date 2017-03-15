@@ -5,6 +5,10 @@
   "main": "comando.js",
   "repository": "",
   "author": "Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>",
+  "private": true,
+  "scripts": {
+    "comando": "node comando.js"
+  }, 
   "dependencies": {
     "cli-table": "^0.3.1",
     "colors": "^1.1.2"
