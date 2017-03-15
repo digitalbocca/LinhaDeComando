@@ -1,12 +1,12 @@
 {
   "name": "LinhaDeComando",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Implementação de um programa em Javascript (NODE) em linha de comando.",
   "main": "comando.js",
   "repository": "",
   "author": "Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>",
   "dependencies": {
     "cli-table": "^0.3.1",
-    "colors": "^1.1.2",
+    "colors": "^1.1.2"
   }
 }
