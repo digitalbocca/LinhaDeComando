@@ -34,9 +34,9 @@ INSTRUÇÕES APÓS A CRIAÇÃO DO SEU WORKSPACE:
 
 - DEPOIS DE CARREGADO O WORKSPACE VÁ ATÉ O TERMINAL.
 - ATUALIZE O NODE PARA A VERSÃO 8.1.1 :
-- <code>nvm install 8.1.1</code>
-- <code>nvm use 8.1.1</code>
-- <code>nvm alias default 8.1.1</code>
+- <code>nvm install 8.3.0</code>
+- <code>nvm use 8.3.0</code>
+- <code>nvm alias default 8.3.0</code>
 - INSTALE AS DEPENDÊNCIAS:
 - <code>npm install</code>
 - EXECUTE O ARQUIVO:

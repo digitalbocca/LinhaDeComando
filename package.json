@@ -1,6 +1,6 @@
 {
   "name": "LinhaDeComando",
-  "version": "0.5.0",
+  "version": "0.8.0",
   "description": "Implementação de um programa em Javascript (NODE) em linha de comando.",
   "main": "comando.js",
   "repository": "",
