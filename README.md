@@ -8,14 +8,14 @@ Implementação de um programa em Javascript (NODE) em linha de comando.
 
 ---
 
-### ATENÇÃO ###
+## ATENÇÃO ##
 
 Este programa apenas escreve texto na tela do terminal.
 Este programa tem apenas finalidade didática.
 
 ---
 
-### USE NO CLOUD9 ###
+## USE NO CLOUD9 ##
 
 **INSTRUÇÕES DE CRIAÇÃO DO WORKSPACE:**
 
@@ -33,16 +33,16 @@ INSTRUÇÕES APÓS A CRIAÇÃO DO SEU WORKSPACE:
 **O CÓDIGO FOI TESTADO NA VERSÃO 8.1.1 DO NODE**
 
 - DEPOIS DE CARREGADO O WORKSPACE VÁ ATÉ O TERMINAL.
-- ATUALIZE O NODE PARA A VERSÃO 8.1.1 :
-- <code>nvm install 8.3.0</code>
-- <code>nvm use 8.3.0</code>
-- <code>nvm alias default 8.3.0</code>
+- ATUALIZE O NODE PARA A VERSÃO 8.4.4 :
+- <code>nvm install 8.4.0</code>
+- <code>nvm use 8.4.0</code>
+- <code>nvm alias default 8.4.0</code>
 - INSTALE AS DEPENDÊNCIAS:
 - <code>npm install</code>
 - EXECUTE O ARQUIVO:
 - <code>npm run comando</code>
 
-#### USE NO SEU COMPUTADOR ####
+## USE NO SEU COMPUTADOR ##
 
 CLONE O REPOSITÓRIO:
 
@@ -62,7 +62,7 @@ EXECUTE O ARQUIVO:
 npm run comando
 ```
 
-#### LISTA DE COMANDOS ####
+## LISTA DE COMANDOS ##
 
 ```bash
 - inicio | Inicia o Programa (Simulação).
@@ -84,22 +84,22 @@ QUALQUER OUTRO COMANDO ELE IMPRIME UM ERRO E A LISTA DE COMANDOS:
 
 ---
 
-### DEPENDÊNCIAS ###
+## DEPENDÊNCIAS ##
 
 ```json
 "dependencies": {
-  "cli-table": "^0.3.1",
-  "colors": "^1.1.2"
+  "cli-table": "^0.3.1"
+},
+"devDependencies": {
+  "standard": "^10.0.3"
 }
 ```
 
-**DEPENDÊNCIAS APENAS PARA FORMATAÇÃO DO TEXTO**
-
 ---
 
-> Este código tem somente finalidade didática e não deve ser usado em produção.
+> Este código tem finalidade didática e não deve ser usado em produção.
 
-> O código não segue nenhuma padronização, servindo apenas para simular o funcionamento.
+> Envie sua sugestão ou correção.
 
 > Obrigado.
 

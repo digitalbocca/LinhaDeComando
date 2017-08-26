@@ -3,8 +3,7 @@
 // VAMOS USAR READLINE PARA LER O VALOR DIGITADO
 const readline = require('readline')
 
-// COLORS E TABLE SÃO APENAS PARA A FORMATAÇÃO DO TEXTO
-const colors = require('colors')
+// DEPENDÊNCIA TABLE SERVE APENAS PARA A FORMATAÇÃO DO TEXTO
 const Table = require('cli-table')
 
 // CRIANDO A INTERFACE DE READLINE

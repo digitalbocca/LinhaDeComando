@@ -10,7 +10,9 @@
     "comando": "node comando.js"
   },
   "dependencies": {
-    "cli-table": "^0.3.1",
-    "colors": "^1.1.2"
+    "cli-table": "^0.3.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }
