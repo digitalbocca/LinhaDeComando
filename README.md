@@ -30,10 +30,10 @@ Este programa tem apenas finalidade didática.
 
 INSTRUÇÕES APÓS A CRIAÇÃO DO SEU WORKSPACE:
 
-**O CÓDIGO FOI TESTADO NA VERSÃO 8.1.1 DO NODE**
+**O CÓDIGO FOI TESTADO NA VERSÃO 8.4.0 DO NODE**
 
 - DEPOIS DE CARREGADO O WORKSPACE VÁ ATÉ O TERMINAL.
-- ATUALIZE O NODE PARA A VERSÃO 8.4.4 :
+- ATUALIZE O NODE PARA A VERSÃO 8.4.0 :
 - <code>nvm install 8.4.0</code>
 - <code>nvm use 8.4.0</code>
 - <code>nvm alias default 8.4.0</code>
