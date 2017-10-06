@@ -1,5 +1,10 @@
 # LinhaDeComando #
-## v0.9.1 ##
+## v0.10.0 ##
+
+**Mudanças na v0.10.0**
+
+- Automatizado o Controle de Versão.
+- Atualização de Dependências.
 
 **Mudanças na v0.9.1**
 
