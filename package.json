@@ -1,13 +1,13 @@
 {
   "name": "LinhaDeComando",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "description": "Implementação de um programa em Javascript (NODE) em linha de comando.",
   "main": "comando.js",
   "repository": "",
   "author": "Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>",
   "private": true,
   "config": {
-    "commitMessage": "Separado ambiente de Desenvolvimento e Produção"
+    "commitMessage": "Correção no README"
   },
   "scripts": {
     "dev": "node dev.js",

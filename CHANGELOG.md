@@ -1,5 +1,9 @@
 # LinhaDeComando #
-## v0.11.0 ##
+## v0.11.1 ##
+
+**Mudanças na v0.11.1**
+
+- Correção no README.
 
 **Mudanças na v0.11.0**
 

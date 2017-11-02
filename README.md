@@ -1,5 +1,5 @@
 # LinhaDeComando #
-## v0.11.0 ##
+## v0.11.1 ##
 
 Implementação de um programa em Javascript (NODE) em linha de comando.
 
@@ -41,7 +41,8 @@ INSTRUÇÕES APÓS A CRIAÇÃO DO SEU WORKSPACE:
 - INSTALE AS DEPENDÊNCIAS:
 - <code>npm install</code>
 - EXECUTE O ARQUIVO:
-- <code>npm run comando</code>
+- dev <code>npm run dev</code>
+- prod <code>npm run start</code>
 
 ## USE NO SEU COMPUTADOR ##
 
