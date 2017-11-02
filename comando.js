@@ -12,6 +12,8 @@ const rl = readline.createInterface({
   output: process.stdout
 })
 
+process.env.EDB_ENV === 'dev' ? console.log('Ambiente de Desenvolvimento') : console.log('Ambiente de Produção')
+
 // COMANDO inicio
 let inicio = function () {
   /**

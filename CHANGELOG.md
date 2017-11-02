@@ -1,5 +1,10 @@
 # LinhaDeComando #
-## v0.10.0 ##
+## v0.11.0 ##
+
+**Mudanças na v0.11.0**
+
+- Atualização do exemplo c9 pra Node 8.9.0.
+- Separado ambiente de Desenvolvimento e Produção.
 
 **Mudanças na v0.10.0**
 

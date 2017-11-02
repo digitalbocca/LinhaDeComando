@@ -1,16 +1,17 @@
 {
   "name": "LinhaDeComando",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Implementação de um programa em Javascript (NODE) em linha de comando.",
   "main": "comando.js",
   "repository": "",
   "author": "Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>",
   "private": true,
   "config": {
-    "commitMessage": "Automatizado o Controle de Versão"
+    "commitMessage": "Separado ambiente de Desenvolvimento e Produção"
   },
   "scripts": {
-    "comando": "node comando.js",
+    "dev": "node dev.js",
+    "start": "node comando.js",
     "git": "npm run gitstatus && npm run gitadd && npm run gitcommit && npm run gittag && npm run gporigin && npm run gpbitbucket && npm run gpgitlab",
     "gitstatus": "git status",
     "gitadd": "git add .",
