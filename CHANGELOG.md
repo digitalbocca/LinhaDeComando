@@ -1,5 +1,9 @@
 # LinhaDeComando #
-## v0.13.0 ##
+## v0.14.0 ##
+
+**Mudanças na v0.14.0**
+
+- Adicionado Selo Code Climate.
 
 **Mudanças na v0.13.0**
 
