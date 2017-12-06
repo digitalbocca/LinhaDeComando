@@ -1,5 +1,5 @@
 # LinhaDeComando #
-## v0.12.0 ##
+## v0.13.0 ##
 
 Implementação de um programa em Javascript (NODE) em linha de comando.
 
@@ -31,7 +31,7 @@ Este programa tem apenas finalidade didática.
 
 INSTRUÇÕES APÓS A CRIAÇÃO DO SEU WORKSPACE:
 
-**O CÓDIGO FOI TESTADO NA VERSÃO 8.9.0 DO NODE**
+**O CÓDIGO FOI TESTADO NA VERSÃO 8.9.2 DO NODE**
 
 - DEPOIS DE CARREGADO O WORKSPACE VÁ ATÉ O TERMINAL.
 - ATUALIZE O NODE PARA A VERSÃO 8.9.2 :
@@ -98,6 +98,7 @@ QUALQUER OUTRO COMANDO ELE IMPRIME UM ERRO E A LISTA DE COMANDOS:
 
 ```json
 "dependencies": {
+  "chalk": "^2.3.0",
   "cli-table": "^0.3.1"
 },
 "devDependencies": {

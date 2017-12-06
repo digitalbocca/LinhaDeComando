@@ -26,11 +26,15 @@ let inicio = () => {
    */
 
   /*
-  console.log('\n')
-  console.log('+------------------------+')
-  console.log('|   INICIANDO PROGRAMA   |')
-  console.log('+------------------------+')
-  console.log('\n')
+
+  let iniciandoProgramaTable = `
+  +------------------------+
+  |   INICIANDO PROGRAMA   |
+  +------------------------+
+  \n`
+
+  console.log(chalk.green(iniciandoProgramaTable))
+
   */
 
   // CRIAÇÃO E FORMATAÇÃO DA TABELA QUE SERÁ EXIBIDA
@@ -56,9 +60,14 @@ let copy = () => {
    */
 
   /*
-  console.log('\n')
-  console.log('(c)2017 - Estúdio Digital Bocca'.green)
-  console.log('\n')
+
+  let copyTable = `
+  +-----------------------------------+
+  |  (c)2017 - Estúdio Digital Bocca  |
+  +-----------------------------------+
+  \n`
+  console.log(chalk.green(copyTable))
+
   */
 
   // CRIAÇÃO E FORMATAÇÃO DA TABELA QUE SERÁ EXIBIDA
@@ -82,22 +91,25 @@ let encerrar = () => {
 }
 
 let listaDeComandos = () => {
-  console.log(chalk.red('Comando Inexistente!!!'))
-  console.log('\n')
-  console.log('+------------------------+')
-  console.log('|    LISTA DE COMANDOS   |')
-  console.log('+------------------------+')
-  console.log('| inicio                 |')
-  console.log('| copy                   |')
-  console.log('| sair                   |')
-  console.log('+------------------------+')
-  console.log('\n')
+  let errorTable = `
+  ${chalk.red('Comando Inexistente !!!')}
+  \n
+  +------------------------+
+  |    LISTA DE COMANDOS   |
+  +------------------------+
+  | inicio                 |
+  | copy                   |
+  | sair                   |
+  +------------------------+
+  \n
+  `
+  console.log(errorTable)
 }
 
 // FUNÇÃO QUE FICA AGUARDANDO O COMANDO
 let comandoPrompt = () => {
   rl.question('COMANDO: ', comando => {
-    console.log(`Executando o Comando: ${comando} \n`)
+    console.log(`Executando o Comando: ${chalk.green(comando)} \n`)
     comando === 'inicio' ? (inicio(), comandoPrompt()) :
     comando === 'copy' ? (copy(), comandoPrompt()) :
     comando === 'sair' ? encerrar() : (listaDeComandos(), comandoPrompt())
