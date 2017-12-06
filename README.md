@@ -1,5 +1,5 @@
 # LinhaDeComando #
-## v0.11.1 ##
+## v0.12.0 ##
 
 Implementação de um programa em Javascript (NODE) em linha de comando.
 
@@ -34,10 +34,10 @@ INSTRUÇÕES APÓS A CRIAÇÃO DO SEU WORKSPACE:
 **O CÓDIGO FOI TESTADO NA VERSÃO 8.9.0 DO NODE**
 
 - DEPOIS DE CARREGADO O WORKSPACE VÁ ATÉ O TERMINAL.
-- ATUALIZE O NODE PARA A VERSÃO 8.9.0 :
-- <code>nvm install 8.9.0</code>
-- <code>nvm use 8.9.0</code>
-- <code>nvm alias default 8.9.0</code>
+- ATUALIZE O NODE PARA A VERSÃO 8.9.2 :
+- <code>nvm install 8.9.2</code>
+- <code>nvm use 8.9.2</code>
+- <code>nvm alias default 8.9.2</code>
 - INSTALE AS DEPENDÊNCIAS:
 - <code>npm install</code>
 - EXECUTE O ARQUIVO:

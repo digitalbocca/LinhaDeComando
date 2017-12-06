@@ -6,6 +6,9 @@ const readline = require('readline')
 // DEPENDÊNCIA TABLE SERVE APENAS PARA A FORMATAÇÃO DO TEXTO
 const Table = require('cli-table')
 
+// DEPENDÊNCIA CHALK SERVE PARA COLORIR OS TEXTOS DO CONSOLE
+const chalk = require('chalk')
+
 // CRIANDO A INTERFACE DE READLINE
 const rl = readline.createInterface({
   input: process.stdin,
@@ -15,7 +18,7 @@ const rl = readline.createInterface({
 process.env.EDB_ENV === 'dev' ? console.log('Ambiente de Desenvolvimento') : console.log('Ambiente de Produção')
 
 // COMANDO inicio
-let inicio = function () {
+let inicio = () => {
   /**
    * CASO NÃO QUEIRA USAR AS DEPENDÊNCIAS PARA A FORMATAÇÃO
    * DO TEXTO. UTILIZE AS LINHAS COMENTADAS ABAIXO NO LUGAR
@@ -45,7 +48,7 @@ let inicio = function () {
 }
 
 // COMANDO copy
-let copy = function () {
+let copy = () => {
   /**
    * CASO NÃO QUEIRA USAR AS DEPENDÊNCIAS PARA A FORMATAÇÃO
    * DO TEXTO. UTILIZE AS LINHAS COMENTADAS ABAIXO NO LUGAR
@@ -74,35 +77,30 @@ let copy = function () {
 }
 
 // ENCERRA A EXECUÇÃO
-let encerrar = function () {
+let encerrar = () => {
   rl.close()
 }
 
+let listaDeComandos = () => {
+  console.log(chalk.red('Comando Inexistente!!!'))
+  console.log('\n')
+  console.log('+------------------------+')
+  console.log('|    LISTA DE COMANDOS   |')
+  console.log('+------------------------+')
+  console.log('| inicio                 |')
+  console.log('| copy                   |')
+  console.log('| sair                   |')
+  console.log('+------------------------+')
+  console.log('\n')
+}
+
 // FUNÇÃO QUE FICA AGUARDANDO O COMANDO
-let comandoPrompt = function () {
-  rl.question('COMANDO: ', (comando) => {
+let comandoPrompt = () => {
+  rl.question('COMANDO: ', comando => {
     console.log(`Executando o Comando: ${comando} \n`)
-    if (comando === 'inicio') {
-      inicio()
-      comandoPrompt()
-    } else if (comando === 'copy') {
-      copy()
-      comandoPrompt()
-    } else if (comando === 'sair') {
-      encerrar()
-    } else {
-      console.log('Comando Inexistente!!!'.red)
-      // console.log('\n')
-      console.log('+------------------------+')
-      console.log('|    LISTA DE COMANDOS   |')
-      console.log('+------------------------+')
-      console.log('| inicio                 |')
-      console.log('| copy                   |')
-      console.log('| sair                   |')
-      console.log('+------------------------+')
-      console.log('\n')
-      comandoPrompt()
-    }
+    comando === 'inicio' ? (inicio(), comandoPrompt()) :
+    comando === 'copy' ? (copy(), comandoPrompt()) :
+    comando === 'sair' ? encerrar() : (listaDeComandos(), comandoPrompt())
   })
 }
 

@@ -6,4 +6,4 @@
 
 process.env.EDB_ENV = 'dev'
 
-require('./comando.js')
+require('./comando')

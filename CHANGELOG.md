@@ -1,5 +1,10 @@
 # LinhaDeComando #
-## v0.11.1 ##
+## v0.12.0 ##
+
+**Mudanças na v0.12.0**
+
+- Adicionado chalk para colorir os textos.
+- Atualização para Node 8.9.2.
 
 **Mudanças na v0.11.1**
 
