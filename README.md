@@ -1,5 +1,5 @@
 # LinhaDeComando #
-## v0.14.0 ##
+## v0.15.0 ##
 
 Implementação de um programa em Javascript (NODE) em linha de comando.
 
@@ -17,34 +17,6 @@ Este programa apenas escreve texto na tela do terminal.
 Este programa tem apenas finalidade didática.
 
 ---
-
-## USE NO CLOUD9 ##
-
-**INSTRUÇÕES DE CRIAÇÃO DO WORKSPACE:**
-
-- CRIE UM NOVO WORKSPACE.
-- NOMEIE E CRIE UMA DESCRIÇÃO.
-- ESOLHA 'HOSTED WORKSPACE'
-- ESCOLHA A VISIBILIDADE (PRIVADA OU PUBLICA)
-- PREENCHA O CAMPO 'Clone from Git or Mercurial URL' COM:
-- <code>https://github.com/digitalbocca/LinhaDeComando.git</code>
-- ESCOLHA O TEMPLATE 'blank' (UBUNTU).
-- CRIE O SEU WORKSPACE.
-
-INSTRUÇÕES APÓS A CRIAÇÃO DO SEU WORKSPACE:
-
-**O CÓDIGO FOI TESTADO NA VERSÃO 8.9.2 DO NODE**
-
-- DEPOIS DE CARREGADO O WORKSPACE VÁ ATÉ O TERMINAL.
-- ATUALIZE O NODE PARA A VERSÃO 8.9.2 :
-- <code>nvm install 8.9.2</code>
-- <code>nvm use 8.9.2</code>
-- <code>nvm alias default 8.9.2</code>
-- INSTALE AS DEPENDÊNCIAS:
-- <code>npm install</code>
-- EXECUTE O ARQUIVO:
-- dev <code>npm run dev</code>
-- prod <code>npm run start</code>
 
 ## USE NO SEU COMPUTADOR ##
 

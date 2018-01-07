@@ -1,13 +1,13 @@
 {
   "name": "LinhaDeComando",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "Implementação de um programa em Javascript (NODE) em linha de comando.",
   "main": "comando.js",
   "repository": "",
   "author": "Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>",
   "private": true,
   "config": {
-    "commitMessage": "Adicionado Selo Code Climate"
+    "commitMessage": "Removida instrução de instalação no Cloud9"
   },
   "scripts": {
     "dev": "node dev.js",

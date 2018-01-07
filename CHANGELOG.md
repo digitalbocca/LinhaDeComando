@@ -1,5 +1,10 @@
 # LinhaDeComando #
-## v0.14.0 ##
+## v0.15.0 ##
+
+**Mudanças na v0.15.0**
+
+- Removida instrução de instalação no Cloud9.
+- Atualizada o arquivo de licença.
 
 **Mudanças na v0.14.0**
 
