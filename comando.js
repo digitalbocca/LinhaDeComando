@@ -63,7 +63,7 @@ let copy = () => {
 
   let copyTable = `
   +-----------------------------------+
-  |  (c)2017 - Estúdio Digital Bocca  |
+  |  (c)2018 - Estúdio Digital Bocca  |
   +-----------------------------------+
   \n`
   console.log(chalk.green(copyTable))
@@ -73,7 +73,7 @@ let copy = () => {
   // CRIAÇÃO E FORMATAÇÃO DA TABELA QUE SERÁ EXIBIDA
   // CONSULTE A DOCUMENTAÇÃO DO cli-table NO SITE DO NPM
   let table = new Table({
-    head: ['   (c)2017 - Estúdio Digital Bocca'],
+    head: ['   (c)2018 - Estúdio Digital Bocca'],
     colWidths: [40],
     style: {
       head: ['green', 'bold'],
@@ -110,9 +110,18 @@ let listaDeComandos = () => {
 let comandoPrompt = () => {
   rl.question('COMANDO: ', comando => {
     console.log(`Executando o Comando: ${chalk.green(comando)} \n`)
-    comando === 'inicio' ? (inicio(), comandoPrompt()) :
-    comando === 'copy' ? (copy(), comandoPrompt()) :
-    comando === 'sair' ? encerrar() : (listaDeComandos(), comandoPrompt())
+    if (comando === 'inicio') {
+      inicio()
+      comandoPrompt()
+    } else if (comando === 'copy') {
+      copy()
+      comandoPrompt()
+    } else if (comando === 'sair') {
+      encerrar()
+    } else {
+      listaDeComandos()
+      comandoPrompt()
+    }
   })
 }
 

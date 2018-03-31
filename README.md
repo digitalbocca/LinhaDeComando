@@ -1,5 +1,6 @@
-# LinhaDeComando #
-## v0.15.0 ##
+# LinhaDeComando
+
+## v0.16.0
 
 Implementação de um programa em Javascript (NODE) em linha de comando.
 
@@ -11,14 +12,14 @@ Implementação de um programa em Javascript (NODE) em linha de comando.
 
 ---
 
-## ATENÇÃO ##
+## ATENÇÃO
 
 Este programa apenas escreve texto na tela do terminal.
 Este programa tem apenas finalidade didática.
 
 ---
 
-## USE NO SEU COMPUTADOR ##
+## USE NO SEU COMPUTADOR
 
 CLONE O REPOSITÓRIO:
 
@@ -46,7 +47,7 @@ npm run dev
 npm run start
 ```
 
-## LISTA DE COMANDOS ##
+## LISTA DE COMANDOS
 
 ```bash
 - inicio | Inicia o Programa (Simulação).
@@ -68,28 +69,29 @@ QUALQUER OUTRO COMANDO ELE IMPRIME UM ERRO E A LISTA DE COMANDOS:
 
 ---
 
-## DEPENDÊNCIAS ##
+## DEPENDÊNCIAS
 
 ```json
 "dependencies": {
-  "chalk": "^2.3.0",
+  "chalk": "^2.3.2",
   "cli-table": "^0.3.1"
 },
 "devDependencies": {
-  "standard": "^10.0.3"
+  "cross-var-no-babel": "^1.2.0",
+  "standard": "^11.0.1"
 }
 ```
 
 ---
 
 > Este código tem finalidade didática e não deve ser usado em produção.
-
+>
 > Envie sua sugestão ou correção.
-
+>
 > Obrigado.
 
 ---
 
-## Licença ##
+## Licença
 
 MIT
