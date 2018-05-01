@@ -7,7 +7,7 @@
   "author": "Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>",
   "private": true,
   "config": {
-    "commitMessage": "Melhoria no comando.js"
+    "commitMessage": "Atualização de dependências"
   },
   "scripts": {
     "dev": "node dev.js",
@@ -22,7 +22,7 @@
     "gpg": "git push gitlab master --tags"
   },
   "dependencies": {
-    "chalk": "^2.3.2",
+    "chalk": "^2.4.1",
     "cli-table": "^0.3.1"
   },
   "devDependencies": {
