@@ -1,6 +1,10 @@
 # LinhaDeComando
 
-## v0.17.0
+## v0.17.1
+
+### Mudanças na v0.17.1
+
+- Correção no package.json.
 
 ### Mudanças na v0.17.0
 

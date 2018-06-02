@@ -1,6 +1,6 @@
 # LinhaDeComando
 
-## v0.17.0
+## v0.17.1
 
 Implementação de um programa em Javascript (NODE) em linha de comando.
 
