@@ -1,6 +1,6 @@
 # LinhaDeComando
 
-## v0.17.1
+## v0.18.0
 
 Implementação de um programa em Javascript (NODE) em linha de comando.
 
@@ -9,6 +9,10 @@ Implementação de um programa em Javascript (NODE) em linha de comando.
 [![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
+
+---
+
+## LEGADO. ESTE PROGRAMA NÃO SERÁ ATUALIZADO
 
 ---
 

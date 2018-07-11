@@ -1,6 +1,10 @@
 # LinhaDeComando
 
-## v0.17.1
+## v0.18.0
+
+### Mudanças na v0.18.0
+
+- Movido para o arquivo EDB.
 
 ### Mudanças na v0.17.1
 

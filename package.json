@@ -1,24 +1,23 @@
 {
   "name": "linha-de-comando",
-  "version": "0.17.1",
+  "version": "0.18.0",
   "description": "Implementação de um programa em Javascript (NODE) em linha de comando.",
   "main": "comando.js",
   "repository": "",
   "author": "Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>",
   "private": true,
   "config": {
-    "commitMessage": "Correção no package.json"
+    "commitMessage": "Movido para o arquivo EBD"
   },
   "scripts": {
     "dev": "node dev.js",
     "start": "node comando.js",
-    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb && npm run gpg",
+    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpg",
     "gst": "git status",
     "gad": "git add .",
     "gco": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
     "gta": "cross-var git tag v$npm_package_version",
     "gpo": "git push origin master --tags",
-    "gpb": "git push bitbucket master --tags",
     "gpg": "git push gitlab master --tags"
   },
   "dependencies": {
