@@ -1,13 +1,13 @@
 {
   "name": "linha-de-comando",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "description": "Implementação de um programa em Javascript (NODE) em linha de comando.",
   "main": "comando.js",
   "repository": "",
   "author": "Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>",
   "private": true,
   "config": {
-    "commitMessage": "Movido para o arquivo EBD"
+    "commitMessage": "Atualizações de segurança"
   },
   "scripts": {
     "dev": "node dev.js",
@@ -21,11 +21,11 @@
     "gpg": "git push gitlab master --tags"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^2.4.2",
     "cli-table": "^0.3.1"
   },
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
-    "standard": "^11.0.1"
+    "standard": "^12.0.1"
   }
 }

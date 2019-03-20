@@ -1,6 +1,6 @@
 # LinhaDeComando
 
-## v0.18.0
+## v0.18.1
 
 Implementação de um programa em Javascript (NODE) em linha de comando.
 
@@ -77,12 +77,12 @@ QUALQUER OUTRO COMANDO ELE IMPRIME UM ERRO E A LISTA DE COMANDOS:
 
 ```json
 "dependencies": {
-  "chalk": "^2.4.1",
+  "chalk": "^2.4.2",
   "cli-table": "^0.3.1"
 },
 "devDependencies": {
   "cross-var-no-babel": "^1.2.0",
-  "standard": "^11.0.1"
+  "standard": "^12.0.1"
 }
 ```
 
