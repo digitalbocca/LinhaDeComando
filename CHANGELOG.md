@@ -1,6 +1,10 @@
 # LinhaDeComando
 
-## v0.18.1
+## v0.18.2
+
+### Mudanças na v0.18.2
+
+- Atualização de segurança.
 
 ### Mudanças na v0.18.1
 
@@ -81,4 +85,4 @@
 - Adicionada a Licença MIT.
 - Adicionado CHANGELOG.
 
->(c)2018 - Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
+>(c)2018-2019 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
