@@ -1,6 +1,10 @@
 # LinhaDeComando
 
-## v0.18.2
+## v0.18.3
+
+### Mudanças na v0.18.3
+
+- Atualização de segurança.
 
 ### Mudanças na v0.18.2
 
