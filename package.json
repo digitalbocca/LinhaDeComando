@@ -1,6 +1,6 @@
 {
   "name": "linha-de-comando",
-  "version": "0.18.3",
+  "version": "0.18.4",
   "description": "Implementação de um programa em Javascript (NODE) em linha de comando.",
   "main": "comando.js",
   "repository": "",
@@ -21,7 +21,7 @@
     "gpg": "git push gitlab master --tags"
   },
   "dependencies": {
-    "chalk": "^4.0.0",
+    "chalk": "^4.1.0",
     "cli-table": "^0.3.1"
   },
   "devDependencies": {
